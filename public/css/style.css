@@ -1,0 +1,70 @@
+body {
+    /* Color de fondo */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    margin-left: 100px;
+    background-color: #A68098; /* Color de fondo del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(white);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+h4{
+    color: white;
+}
+
+input[type="text"], input[type="password"] {
+    width: 92%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    /*background-color: #f26E22; /* Color de los campos de entrada */
+    
+}
+
+.recuerdame {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.image {
+    margin-left: 100px; /* Espacio entre la imagen y el formulario */
+}
+
+.image img {
+    max-width: 350px; /* Ajusta el tamaño máximo de la imagen */
+    
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f26E22; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#731A5B; /* Color del botón al pasar el ratón */
+}
